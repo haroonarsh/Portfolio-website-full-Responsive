@@ -1,0 +1,28 @@
+.purple {
+    color: rgb(177, 104, 245);
+}
+
+#element {
+    color: rgb(177, 104, 245);
+}
+
+.text-gray {
+    color: rgb(177, 104, 245);
+}
+
+/* *******************hr************************            */
+
+hr {
+    border: 0;
+    background-color: #3632a0;
+    height: 2px;
+    margin: 40px 86px;
+}
+
+/* ************************************************************ */
+.secondSection .box {
+    width: 80vw;
+    background: white;
+    height: 2px;
+    margin: 56px 0;
+}

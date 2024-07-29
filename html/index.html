@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/utiltes.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+    <script src="https://kit.fontawesome.com/daffe3eea6.js" crossorigin="anonymous"></script>
+    
+    <title>Haroon - Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Haroon's Portfolio</div>
+            <div class="right">
+                <ul class="scrolBar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="https://github.com/haroonarsh">Contact Me</a></li>
+                </ul>
+                <i id="icon" class="menu fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi My Name is <span class="purple">Haroon</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"><a href="https://github.com/haroonarsh">Visit Github</a></button>
+                    
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="/img/3993463a-7495-4b87-9c67-26eff32de1c6.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <div class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/img/react.png" style="width: 31px;" alt="">
+                    <div class="vertical-title">
+                        React Developer (2016-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam cum vero id sed? Libero
+                        cumque corporis eveniet odit, consequuntur repellendus quis soluta!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/flutter.png" alt="">
+                    <div class="vertical-title">
+                        FLUTTER Developer (2017-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam cum vero id sed? Libero
+                        cumque corporis eveniet odit, consequuntur repellendus quis soluta!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/c++.png" style="width: 35px;" alt="">
+                    <div class="vertical-title">
+                        C++ Developer (2012-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam cum vero id sed? Libero
+                        cumque corporis eveniet odit, consequuntur repellendus quis soluta!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/js.png" style="left: -25px;" alt="">
+                    <div class="vertical-title">
+                        Javascript Developer (2018-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam cum vero id sed? Libero
+                        cumque corporis eveniet odit, consequuntur repellendus quis soluta!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/node.png" style="width: 29px;" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer (2019-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam cum vero id sed? Libero
+                        cumque corporis eveniet odit, consequuntur repellendus quis soluta!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/python.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer (2012-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam cum vero id sed? Libero
+                        cumque corporis eveniet odit, consequuntur repellendus quis soluta!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- **********************Footer************************************** -->
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Haroon's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+          Copyright &copy; haroon'sportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <!-- **************************Typing Script*********************************  -->
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+      <!-- -- Javascript paga -- -->
+       <script src="/js/app.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        let typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+</html>
